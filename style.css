@@ -1,70 +1,48 @@
-/*universal selector*/
+div{
+    height: 200px;
+    width: 500px;
+    background-color: maroon;
+    color: white;
+    /*
+    border-color: green;
+    border-style: dashed;
+    border-width: 3px;*/
+    border: 5px solid green;
+    border-top-color: black;
+    border-top-style:dashed;
+    border-radius: 50px;
+    border-top-left-radius: 10px;
+    padding: 20px;
+    padding-left: 3%;
+    margin-top: 25px;
+    margin-left: 25px;
+   /* margin: 10px 10px 40px 10px;*/
 
-*{
-    background-color: bisque;
-}/*element selector*/
+}
+
 h1{
-    color:#b92b27 ;
+    border-color: black;
+    border-style: double;
+    border-width: 8px;
 }
-h3{
-    color: purple;
-}/*id selector*/
-#signup{
-    background-color: green;
+button{
+    background-color: black;
     color: white;
-}
-#login{
-    background-color: blueviolet;
-    color: white;
-}/*class selector*/
-.nisha{
-    background-color:maroon;
-    color: wheat;
-}
-ul li a{
-    color: maroon;
-}
-p a{
-    color: blueviolet;
-}
-.n a{
-    color: blue;
-}
-.nisha + button{
-    background-color: green;
-    color: white;
-}
-div>input {
-    background-color: blue;
-    
-}
-/* attribute selector*/
-input[ type ="password"]{
-    color: red;
-}
-input[type="text"]{
-    color: gold;
+    border-radius: 50px;
+   /* border-width: 10px;
+    border-left: 20px; */
+    border-width: 10px;
 }
 button:hover{
+    border-color: magenta;
+}
+h2{
+    display: inline;
+    color: blueviolet;
     background-color: black;
-    color: red;
 }
-button:active{
-    background-color: pink;
-}
-div:nth-of-type(1){
-    background-color: purple;
-}
-h1::first-letter{
-    color: black;
-}
-p::first-line{
-    color: red;
-}
-p::selection{
-    background-color: rgb(169, 22, 105);
-}
-/* !important is use for permanent we can't change */
-h3{
-    background-color: #b92b !important;
+samp{
+    display: block;
+    background-color: blue;
+    color: white;
 }
