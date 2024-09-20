@@ -1,0 +1,70 @@
+/*universal selector*/
+
+*{
+    background-color: bisque;
+}/*element selector*/
+h1{
+    color:#b92b27 ;
+}
+h3{
+    color: purple;
+}/*id selector*/
+#signup{
+    background-color: green;
+    color: white;
+}
+#login{
+    background-color: blueviolet;
+    color: white;
+}/*class selector*/
+.nisha{
+    background-color:maroon;
+    color: wheat;
+}
+ul li a{
+    color: maroon;
+}
+p a{
+    color: blueviolet;
+}
+.n a{
+    color: blue;
+}
+.nisha + button{
+    background-color: green;
+    color: white;
+}
+div>input {
+    background-color: blue;
+    
+}
+/* attribute selector*/
+input[ type ="password"]{
+    color: red;
+}
+input[type="text"]{
+    color: gold;
+}
+button:hover{
+    background-color: black;
+    color: red;
+}
+button:active{
+    background-color: pink;
+}
+div:nth-of-type(1){
+    background-color: purple;
+}
+h1::first-letter{
+    color: black;
+}
+p::first-line{
+    color: red;
+}
+p::selection{
+    background-color: rgb(169, 22, 105);
+}
+/* !important is use for permanent we can't change */
+h3{
+    background-color: #b92b !important;
+}
