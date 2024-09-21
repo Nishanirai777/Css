@@ -1,0 +1,23 @@
+#tr{
+width: 15%;
+background-color: brown;
+height: 50%;
+transform: rotate(deg);
+}
+#tr{
+    transform: rotate(45deg);
+}
+#nisha{
+    width: 15%;
+background-color: brown;
+height: 50%;
+transform: scale(0.5);
+}
+#m{
+    width: 15%;
+background-color: brown;
+height: 50%;
+transform: translate(50px 40px);
+transform: skew(30deg);
+box-shadow: 5px 5px 10px black;
+}

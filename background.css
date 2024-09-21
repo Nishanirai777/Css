@@ -1,0 +1,12 @@
+div{
+    height: 500px;
+    width: 500px;
+    
+    color: white;
+    background-color: maroon;
+    opacity: 0.6;
+    background-image: url("n.webp");
+    background-size: cover;
+    /* if we write auto then image itself crop
+    if we write contain image repeate itself 3 times*/
+}

@@ -1,0 +1,24 @@
+.card{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 3px solid black;
+    margin: 10px;
+    border: radius 5px  ;
+    box-shadow: 4px 8px 18px;
+}
+img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    padding: ;
+
+}
+.nisha{
+    padding: 0 10px 0 10px;
+}
+.card:hover{
+    box-shadow: 4px 8px 30px;
+    transition: 2s;
+
+
+}
