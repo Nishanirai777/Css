@@ -1,0 +1,13 @@
+#conatiner{height: 500px;
+    width: 50%;
+    background-color: black;
+    display: grid;
+
+}
+.iteam{
+    height: 90px;
+    width: 100px;
+    border: 2px solid maroon;
+    background-color: gold;
+
+}
