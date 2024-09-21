@@ -1,29 +1,40 @@
-#nisha{
-    height: 200px;
-    width: 70px;
-    border: 2px solid black;
+.nisha{
+    height: 500px;
+    width: 50%;
+    background-color: aliceblue;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    border: 3px solid black;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 10px;
+    
+    
 }
-#a{
-    height: 50px;
-    width: 50px;
-    border: 2px solid black;
-    margin: 10px;
-    background-color: red;
-    border-radius: 50%;
+.nisha div{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+   text-align: center;
+   border-radius: 10px;
+   font-size: 50px;
 }
-#b{
+
+#nav{
     height: 50px;
-    width: 50px;
-    border: 2px solid black;
-    margin: 10px;
-    background-color: yellow;
-    border-radius: 50%;
+    width: 900px;
+    background-color: palevioletred;
+    border-radius: 10px;
+    display: flex;
+   text-align: center;
+   border: 2px solid lightgreen;
+   justify-content: flex-start;
+   align-content: center;
 }
-#c{
+.kali{
     height: 50px;
-    width: 50px;
-    border: 2px solid black;
-    margin: 10px;
-    background-color: green;
-    border-radius: 50%;
+    width: 80px;
+    font-size: 24px;
 }
