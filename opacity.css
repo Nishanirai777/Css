@@ -1,0 +1,31 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: maroon;
+   /* color: rgba(90 80, 76, 0.8);
+    transition: 2s;
+    transition-delay: 2s;
+    */
+    margin: 0 auto;
+    transition: margin-top 3s ease-in-out 0.3s;
+}
+div:hover{
+    background-color: black;
+    border-radius: 50%;
+  margin-top: 400px;
+}/*
+
+#opacity {
+    background-color: gold;
+    margin-top: 10px;
+    opacity: 0.5;
+}
+
+button {
+    margin: 50px;
+}
+
+button:active {
+    color: red;
+    background-color: green;
+}*/
