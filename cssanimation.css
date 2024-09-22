@@ -1,0 +1,23 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: maroon;
+    align-items: center;
+    animation-name: nisha;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse;
+}
+h1{
+    
+}
+@keyframes nisha {
+    form{
+        font-size: 20px;
+    }
+    to{
+        font-size: 60px;
+    }
+}
