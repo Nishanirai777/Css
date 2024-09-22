@@ -1,0 +1,28 @@
+.box{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border: 3px solid rgb(33, 28, 31);
+    z-index: 2;
+
+}
+#a{
+    background-color: blue;
+    
+    
+    position: relative;
+    z-index: 1;
+}
+#b{
+    background-color: maroon;
+    bottom: 40px;
+    position: relative;
+    z-index: 3;
+}
+#c{
+    background-color: purple;
+    position: relative;
+    bottom: 70px;
+    z-index: 0;
+}
