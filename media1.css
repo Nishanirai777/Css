@@ -26,3 +26,8 @@ h1{
         background-color: pink;
     }
 }
+/*@media (min-width:400px)and (max-width:200px){
+    h1{
+        background-color: purple;
+    }
+}*/
