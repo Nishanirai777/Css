@@ -9,6 +9,7 @@
     animation-delay: 2s;
     animation-iteration-count: 3;
     animation-direction: alternate-reverse;
+    /*animation: nisha 3s ease-out infinite alternate-reverse;*/
 }
 h1{
     
